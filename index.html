@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Aniversário Maninha</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #f0e68c;
+            background-image: url('imagems/backgrund.jpeg'); /* Adicione a imagem de fundo desejada */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            text-align: center;
+            color: #333;
+        }
+        header {
+            background-color: rgba(105, 202, 247, 0.8);
+            color: #333;
+            padding: 1em;
+            width: 100%;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 50px;
+            padding: 2em;
+            margin-top: 5em; /* Espaço para o cabeçalho fixo */
+        }
+        .gallery img {
+            border: 5px solid #ffb6c1;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .gallery img.imagem1 {
+            width: 300px; /* Ajuste o tamanho conforme necessário */
+            height: 300px; /* Ajuste o tamanho conforme necessário */
+        }
+        .gallery img.imagem2 {
+            width: 400px; /* Ajuste o tamanho conforme necessário */
+            height: 400px; /* Ajuste o tamanho conforme necessário */
+        }
+        .gallery img.imagem3 {
+            width: 300px; /* Ajuste o tamanho conforme necessário */
+            height: 300px; /* Ajuste o tamanho conforme necessário */
+        }
+        .music-player {
+            margin: 2em 0;
+            width: 50%;
+            max-width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Feliz Aniversário Maninha &lt;3</h1>
+    </header>
+    <section class="gallery">
+        <img src="imagems/bolo.png" alt="bolo.png" class="imagem1">
+        <img src="imagems/th.jpeg" alt="th.jpeg" class="imagem2">
+        <img src="imagems/amizade.gif" alt="amizade.gif" class="imagem3">
+        <!-- Adicione mais imagens conforme necessário -->
+    </section>
+    <section class="music-player">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0pUdOFWYSL4c7bFlpV68GG?utm_source=generator" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </section>
+</body>
+</html>
